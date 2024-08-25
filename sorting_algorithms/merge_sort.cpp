@@ -15,7 +15,7 @@ void merge(int a[], int l, int m, int h) {
   //creating two temporary arrays to store left[l..m] and right[m+1..h] halves
   int left[n1], right[n2];
   for(int i=0; i<n1; i++) left[i] = a[l+i];
-  for(int j=0; j<n1; j++) right[j] = a[m+1+j];
+  for(int j=0; j<n2; j++) right[j] = a[m+1+j];
   
   //now the actual merge will start
   //we will compare the elements of left and right halves
